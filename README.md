@@ -16,7 +16,7 @@ To execute the following scripts, use the command `npm run [script-name]`:
     Launches the backend API server.
 
 -   **frontend**: `npm run frontend`  
-    Starts Vite on port 4223.
+    Starts Vite on port 4773.
 
 -   **buildBackend**: `npm run buildBackend`  
     Compiles TypeScript files based on the backend-tsconfig.
