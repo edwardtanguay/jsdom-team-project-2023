@@ -1,0 +1,10 @@
+author::edward
+whenCreated::2023-10-17 05:50:04
+title::JS-DOM: Create list of conference workshops with favorites checkbox
+descriptionMarkdown::[[
+- create a list of workshops with titles
+- if you click a workshop, its details are displayed in a larger area
+- if you click a "favorites" checkbox of a workshop, the workshop is **not** displayed, but a counter is changed showing how many workshops have been selected as favorites
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::e.target, stopPropagation, querySelector // comma-separated id-codes

@@ -1,0 +1,53 @@
+{
+	"name": "jsdom-team-project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "run-p backendWatch frontend",
+		"backendWatch": "nodemon",
+		"api": "node dist/backend/api.js",
+		"frontend": "vite --port 4773 --open",
+		"buildBackend": "tsc -p ./backend/tsconfig.json",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"cli": "node backend/createAssignmentPrompt/prompt.js",
+		"ce": "node dist/backend/create-exercise.js",
+		"fix-at-layer": "node resolve-at-layer-error.js",
+		"sc": "git log --pretty=format:\"%h - %ad - %s (%an)\" -10 --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"sc-OLD": "clear && git log --pretty=format:\"%h - %ad - %s (%an)\" -10 --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"sca": "git log --pretty=format:\"%h - %ad - %s (%an)\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"killports": "sudo killall -s KILL node",
+		"delbranches": "git for-each-ref --format '%(refname:short)' refs/heads | grep -v \"dev\\|master\\|main\" | xargs git branch -D",
+		"ud": "git pull && npm i && npm run dev"
+	},
+	"nodemonConfig": {
+		"watch": [
+			"backend"
+		],
+		"ext": "ts",
+		"exec": "npm run buildBackend && node dist/backend/api.js"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.14",
+		"@types/express": "^4.17.18",
+		"autoprefixer": "^10.4.15",
+		"postcss": "^8.4.29",
+		"tailwindcss": "^3.3.3",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5"
+	},
+	"dependencies": {
+		"axios": "^1.5.0",
+		"cors": "^2.8.5",
+		"dayjs": "^1.11.10",
+		"dotenv": "^16.3.1",
+		"editorconfig": "^2.0.0",
+		"express": "^4.18.2",
+		"inquirer": "^9.2.11",
+		"marked": "^9.0.3",
+		"nodemon": "^3.0.1",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.67.0"
+	}
+}

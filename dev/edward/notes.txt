@@ -1,0 +1,5 @@
+- x add users to exercises in backend
+- x make interface ISolution
+- x show users on latest
+- .. add notes to create
+	- .. change to categories

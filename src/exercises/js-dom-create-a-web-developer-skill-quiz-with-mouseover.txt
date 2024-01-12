@@ -1,0 +1,15 @@
+author::edward
+whenCreated::2023-10-16 07:54:07
+title::JS-DOM: Create a web-developer-skill quiz with mouseover
+descriptionMarkdown::[[
+- import this file as array of skill items: [skills.json](https://github.com/WD23-D04/jsdom-team-project/blob/dev/src/data/other/skills.json) 
+- select 5 random items from the skills array
+- display them on the screen so the user only sees the skill
+- when the user hovers their mouse over the skill name, they should see the description
+- when the user's mouse leaves the skill name, the description should be hidden again
+- keep a log of the total amount of many times the user hovered over skill items
+	- note that this logging is not possible if you use the CSS hover command
+	- this is why you have to produce the hover effect with JavaScript
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::mouseover, mouseleave, querySelector, addEventListener // comma-separated id-codes

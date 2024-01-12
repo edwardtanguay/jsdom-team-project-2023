@@ -1,0 +1,13 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Button that adds opacity
+descriptionMarkdown::[[
+- create a word in a `<p>` element e.g. "online"
+- create a button
+- in JavaScript
+	- create a variable for each of these elements
+	- add a click event to the button which adds `.5` opacity to the text
+- for an example of adding a click event to a button, see [this example](https://github.com/edwardtanguay/web050-htmlcssjsone/blob/dev/index.html)
+]] 
+difficulty::4 // 1=easy, 5=difficult
+categories::querySelectorAll, style // comma-separated id-codes

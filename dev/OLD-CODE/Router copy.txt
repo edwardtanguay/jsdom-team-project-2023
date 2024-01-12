@@ -1,0 +1,118 @@
+import Page404 from "./pages/Page404";
+import JavaScriptFunctionPractice from "./pages/PageAbout";
+import HomePage from "./pages/PageHome";
+import * as tools from "./tools";
+import assignmentMenu from "../dev/OLD-CODE/assignmentMenu";
+
+const url = new URL(tools.getCurrentUrl());
+
+let user = "";
+let assignment = "";
+
+// checks if the url has a user, uses assignment as user if not
+if (url.pathname.split("/").length > 2) {
+  user = url.pathname.split("/")[1];
+  assignment = url.pathname.split("/")[2];
+} else {
+  user = "assignments";
+  assignment = url.pathname.split("/")[1];
+}
+
+const currentPageIdCode = getSmartCurrentPageId();
+
+interface ICurrentPage {
+  title: string;
+  html: string;
+}
+
+export const getCurrentPage = async (): Promise<ICurrentPage> => {
+  switch (currentPageIdCode) {
+    case ``:
+      return {
+        title: "Home",
+        html: HomePage(),
+      };
+
+    case `about`:
+      return {
+        title: "About",
+        html: JavaScriptFunctionPractice(),
+      };
+
+    case `${user}/${assignment}`:
+
+      try {
+        const modulePath = `./pages/${user}/${assignment}`;
+        const userAssignmentModule = await import(modulePath /* @vite-ignore */);
+        const htmlContent = userAssignmentModule
+          ? userAssignmentModule.default()
+          : "Assignment not found";
+        return { title: assignment, html: htmlContent };
+      } catch (error) {
+        console.error("An error occurred while importing the module:", error);
+        return { title: "404", html: Page404(assignment, user) };
+      }
+
+    case `${assignment}`:
+      try {
+        const modulePath = `./pages/${user}/${assignment}`;
+        await import(modulePath /* @vite-ignore */);
+
+        return { title: assignment, html: assignmentMenu(assignment) };
+      } catch (error) {
+        console.error("An error occurred while importing the module:", error);
+        return { title: "404", html: Page404(assignment) };
+      }
+
+    default:
+      return { title: "404", html: Page404() };
+  }
+};
+
+export const getPageIdCode = (pageName: string) => {
+  pageName = tools.cleanCharactersToAscii(pageName);
+  return pageName.toLowerCase();
+};
+
+const getKebabPageIdCode = (pageName: string) => {
+  pageName = pageName.replaceAll(' ', '-');
+  pageName = tools.cleanCharactersToAscii(pageName);
+  return pageName.toLowerCase();
+};
+
+export const getMenu = () => {
+  const getMenuClass = (pageName: string) => {
+    const pageIdCode = tools.cleanCharactersToAscii(pageName.toLowerCase());
+    if (pageIdCode === currentPageIdCode) {
+      return ` class="active"`;
+    } else {
+      return "";
+    }
+  };
+
+  // if (!['javascriptfunctionpractice'].includes(pageIdCode)) {
+  return /*html*/ `
+<nav class="mt-3 mb-3" x-show="menuOpen">
+<ul class="flex gap-3 flex-wrap pr-14">
+<li>testing</li>
+</ul>
+</nav>
+`;
+};
+
+export function getSmartCurrentPageId() {
+  let currentPageIdCode = tools.getCurrentPageIdCode();
+
+  // if (user !== "assignments") {
+  //   currentPageIdCode =
+  //     currentPageIdCode === ""
+  //       ? `${user}/${tools.cleanCharactersToAscii(pageNames[0].toLowerCase())}`
+  //       : `${user}/${currentPageIdCode}`;
+  // } else {
+  //   currentPageIdCode === ""
+  //     ? `${tools.cleanCharactersToAscii(pageNames[0].toLowerCase())}`
+  //     : `${currentPageIdCode}`;
+  // }
+
+  return currentPageIdCode;
+}

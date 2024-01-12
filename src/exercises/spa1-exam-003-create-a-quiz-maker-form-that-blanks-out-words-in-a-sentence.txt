@@ -1,0 +1,11 @@
+author::edward
+whenCreated::2023-10-21 05:40:14
+title::SPA1 Exam 003: Create a quiz-maker form that blanks out words in a sentence
+descriptionMarkdown::[[
+- create a form that asks for a sentence and two markers from the user
+- the user can create a sentence in which certain words will be blanked out
+- which words are blanked out is determined by the markers
+- when the user clicks on the button, the quiz sentence is generated with the marked words blanked out
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, addEventListener, regex // comma-separated id-codes

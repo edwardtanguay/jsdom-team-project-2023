@@ -1,0 +1,13 @@
+author::edward
+whenCreated::2023-10-17 05:38:16
+title::JS-DOM: Create login form that highlights field and background
+descriptionMarkdown::[[
+- create an HTML form with "Login name" and "Password" fields and a button
+- when the user clicks in either field
+	- change the background of that field
+	- change the background of the form
+- when the user clicks outside a field, the background of the field returns to its original color
+- when the user only clicks on the form itself, it changes color, but not either of the fields
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::e.target, e.currentTarget, querySelector // comma-separated id-codes

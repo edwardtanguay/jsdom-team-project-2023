@@ -1,0 +1,10 @@
+author::edward
+whenCreated::2023-10-16 00:56:50
+title::JS-DOM: Show info tips when fields are focused
+descriptionMarkdown::[[
+- create two input fields labeled **Zip Code** and **State**
+- when the user clicks their cursor inside an input box, show an info text
+- when the mouse leaves the input box, hide the info text again
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::focus, blur // comma-separated id-codes

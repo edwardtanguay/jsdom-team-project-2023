@@ -1,0 +1,13 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Change styles on button click
+descriptionMarkdown::[[
+- create two buttons labeled "Nouns" and "Verbs"
+- create some paragraphs of text
+- wrap each noun with `<span class="noun">...</span>`
+- wrap each verb with `<span class="verb">...</span>`
+- when the "Nouns" button is clicked, highlight the nouns with a color
+- when the "Verbs" button is clicked, highlight the verbs with another color
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::classList, toggle(), add(), remove(), replace() // comma-separated id-codes

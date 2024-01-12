@@ -1,0 +1,19 @@
+author::edward
+whenCreated::2023-10-21 06:41:45
+title::SPA1 Exam 002: Display all attributes of an element
+descriptionMarkdown::[[
+- create the following image element:
+```
+<img src="images/general/book77827.jpg" 
+	id="book77827" 
+	alt="Book: Node.js Rezepte und Lösungen" 
+	title="Node.js Rezepte und Lösungen" 
+	class="img-responsive" 
+	aria-label="Book: Node.js Rezepte und Lösungen" 
+	/>
+```
+- create a button called **display attributes**
+- when the button is clicked, convert the attributes to a JavaScript object and display it on the screen
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, addEventListener, attributes, &lt;pre&gt;&lt;/pre&gt;, JSON.stringify(obj&#44; null&#44; 2) // comma-separated id-codes

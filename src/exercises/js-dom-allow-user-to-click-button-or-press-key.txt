@@ -1,0 +1,14 @@
+author::edward
+whenCreated::2023-10-16 07:27:25
+title::JS-DOM: Allow user to click button or press key
+descriptionMarkdown::[[
+- create a **Save** button
+- create a **Print** button
+- when the user clicks each button, display some mock text that shows that the button was clicked
+	- e.g. "File saved" and "File printed"
+- enable the user to press the "S" key to save
+- enable the user to press the "P" key to print
+- see [this code](https://github.com/WD23-D04/jsdom-team-project/blob/9fcc54e4c8535eb67ddb3068bc62edb4e550631b/src/solutions/edward-create-movable-graphics-with-classes-001.ts#L65) as a guide on how to respond to certain key presses
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::keydown, querySelector, addEventListener // comma-separated id-codes

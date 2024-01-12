@@ -1,0 +1,15 @@
+author::edward
+whenCreated:: 2023-10-04 12:58:23
+title::List all orders of one customer
+descriptionMarkdown::[[
+- you will need to import the `customers.json`, the `orders.json` and `products.json`files
+- define a variable to hold a **customer id**, e.g.
+```
+const customerID = 'TORTU';
+```
+- display the **customer name**
+- under the customer's name, display **all the orders** for that customer
+- test your solution in that you change the `customerID` variable and see that a different **customer name** and different **orders** appear
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::import, map, find // comma-separated id-codes

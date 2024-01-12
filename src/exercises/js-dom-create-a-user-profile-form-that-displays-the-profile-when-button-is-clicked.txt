@@ -1,0 +1,9 @@
+author::edward
+whenCreated::2023-10-17 06:11:22
+title::JS-DOM: Create a user profile form that displays the profile when button is clicked
+descriptionMarkdown::[[
+- create a form that collects data on a user
+- when the submit button is clicked, display the data in an area next to the form
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::preventDefault, FormData, querySelector // comma-separated id-codes

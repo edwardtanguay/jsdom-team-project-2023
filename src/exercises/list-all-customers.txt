@@ -1,0 +1,10 @@
+author::edward
+whenCreated:: 2023-10-05 12:58:23
+title::List all customers
+descriptionMarkdown::[[
+- import the `customers.json` file into a variable called `customers` 
+- display the `companyName` property for all the customers in a UL/LI list on the page
+- the list does not need to be in any specific order
+]] 
+difficulty::1 // 1=easy, 5=difficult
+categories::import, map // comma-separated id-codes

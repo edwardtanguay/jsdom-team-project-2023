@@ -1,0 +1,15 @@
+author::edward
+whenCreated:: 2023-09-26 12:58:23
+title::PB2 Exam 002: Create object literal with method
+descriptionMarkdown::[[
+- create the following object literal:
+```
+const person = {
+	name: 'Hans Hammerschmidt',
+	age: 30
+};
+```
+- inside the object literal, create a method that displays the text:
+]] 
+difficulty::1 // 1=easy, 5=difficult
+categories::pb2exam, objects // comma-separated id-codes

@@ -1,0 +1,16 @@
+author::edward
+whenCreated::2023-10-21 07:49:01
+title::SPA1 Exam 001: Create product box that changes style on button click
+descriptionMarkdown::[[
+- create and style a box that displays a product with a **buy** button
+	- use any product image, or use [this book](https://edwardtanguay.vercel.app/customImages/techBooks/practicalJamstack.jpg)
+- when the user clicks the buy button, change the style of the box to indicate this
+- the new style should indicate to the user that the user has bought the product, e.g.
+	- highlight around the image
+	- add a text that says "purchased"
+	- change background color
+- **CHALLENGE**: when the buy button is clicked, replace it with a button "remove from cart"
+	- clicking "remove from cart" resets all styles and displays the "buy" button again
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, document.style // comma-separated id-codes

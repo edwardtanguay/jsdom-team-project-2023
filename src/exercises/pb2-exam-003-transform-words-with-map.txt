@@ -1,0 +1,17 @@
+author::edward
+whenCreated:: 2023-09-26 12:58:23
+title::PB2 Exam 003: Transform words with map
+descriptionMarkdown::[[
+- create the following array
+```
+const products = [
+	{ id: 100001, title: 'Samsung Galaxy S23', price: 599.99 },
+	{ id: 100002, title: 'ThinkPad P1 Gen 6', price: 999.99 },
+	{ id: 100003, title: 'Noise cancelling headphones', price: 149.99 }
+];
+```
+- then use `map()` to transform it to a string of product codes
+- print these codes out on the page so they look like this:
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::pb2exam, higherOrderFunctions // comma-separated id-codes

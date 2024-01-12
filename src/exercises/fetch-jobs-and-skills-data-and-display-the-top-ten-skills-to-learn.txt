@@ -1,0 +1,12 @@
+author::edward
+whenCreated::2023-10-24 05:58:48
+title::Fetch jobs and skills data and display the top ten skills to learn
+descriptionMarkdown::[[
+- use **axios** to asyncronously load 
+	- this external [jobs.json](https://edwardtanguay.vercel.app/share/jobs.json) file into an array called **jobs**
+	- this external [skills.json](https://edwardtanguay.vercel.app/share/skills.json) file into an array called **skills**
+- display a title
+- calculate and display a list of **the top 10 skills** and the **percentage they occur** in the job postings
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::axios, querySelector, addEventListener, map // comma-separated id-codes

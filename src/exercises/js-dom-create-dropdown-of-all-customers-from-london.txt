@@ -1,0 +1,9 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Create dropdown of all customers from London
+descriptionMarkdown::[[
+- import the [customers.json](https://github.com/WD23-D04/042-js-function-practice/blob/dev/src/data/customers.json) file as an array of customers
+- iterate through the array and create a dropdown of all customers that are from London
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::createElement, appendChild // comma-separated id-codes

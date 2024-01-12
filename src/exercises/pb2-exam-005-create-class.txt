@@ -1,0 +1,21 @@
+author::edward
+whenCreated:: 2023-09-26 12:58:23
+title::PB2 Exam 005: Create class
+descriptionMarkdown::[[
+- create a class called `Race`
+- create these **properties** (all private) and a **constructor** to initialize them:
+	- `name` (string)
+	- `date` (string)
+	- `maximumRunners` (number)
+	- `currentRunners` (number)
+- create these methods:
+	- `getAvailableSpots()` (private)
+		- returns the **number of runners** that can still sign up for the race
+	- `display()` (public)
+		- call the **getAvailableSpots** method
+		- return HTML that displays information about the race
+- create an **instance** of the class and call the **display** method to show the information on the page
+	- change the parameters you send to the class and make sure they change what is displayed appropriately
+]] 
+difficulty::4 // 1=easy, 5=difficult
+categories::pb2exam, higherOrderFunctions // comma-separated id-codes

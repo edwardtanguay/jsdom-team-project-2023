@@ -1,0 +1,12 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Change styles of multiple elements
+descriptionMarkdown::[[
+- create two `UL`/`LI` lists
+- give each `UL` element a class name, e.g. "left" and "right"
+- with JavaScript
+	- get each of the collection of `LI` elements as a collection of nodes
+	- iterate through this collection of nodes and change the color of each programmatically
+]] 
+difficulty::4 // 1=easy, 5=difficult
+categories::querySelectorAll, style // comma-separated id-codes

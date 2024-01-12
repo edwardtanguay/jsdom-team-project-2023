@@ -1,0 +1,66 @@
+[
+  {
+    "title": "List all customers",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "List of employees with id code",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "list employees",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "list London employees",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "List all orders of one customer",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "List first 10 orders with shipping address",
+    "users": [
+      "edward"
+    ]
+  },
+  {
+    "title": "List USA employees",
+    "users": [
+      "khalil"
+    ]
+  },
+  {
+    "title": "Average price for orders",
+    "users": [
+      "khalil"
+    ]
+  },
+  {
+    "title": "Create BubbleSort",
+    "users": [
+      "edward",
+      "lukas",
+      "sedigheh",
+      "ghulam",
+      "behdad"
+    ]
+  },
+  {
+    "title": "List orders with days ago",
+    "users": [
+      "edward"
+    ]
+  }
+]

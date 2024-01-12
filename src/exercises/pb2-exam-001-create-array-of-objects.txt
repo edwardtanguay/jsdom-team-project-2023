@@ -1,0 +1,16 @@
+author::edward
+whenCreated:: 2023-09-26 12:58:23
+title::PB2 Exam 001: Create an array of objects
+descriptionMarkdown::[[
+- convert the following name tags to an **array of objects literals**
+- create an array called `nametags`
+- inside the array, create three object literals each with the following properties and an **appropriate value**: 
+	- `name`
+	- `position`
+	- `backgroundColor`
+	- `imageFile`
+- (for the image files, a value might be something like `wing.png`)
+- list out the information on the web page in some way
+]] 
+difficulty::2 // 1=easy, 5=difficult
+categories::pb2exam, objects // comma-separated id-codes

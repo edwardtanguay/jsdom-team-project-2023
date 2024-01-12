@@ -1,0 +1,15 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Change style of elements
+descriptionMarkdown::[[
+- in HTML, create two `<div>` elements
+- inside each div write the text "Info" and "Events" 
+- give each element a different class name: "info" and "events"
+- with JavaScript
+	- get both divs as variables
+	- change the text color of both
+	- change the background color of both 
+	- change the width and height of both
+]] 
+difficulty::4 // 1=easy, 5=difficult
+categories::querySelector, style // comma-separated id-codes

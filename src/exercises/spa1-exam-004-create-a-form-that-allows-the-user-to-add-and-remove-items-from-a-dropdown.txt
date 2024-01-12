@@ -1,0 +1,10 @@
+author::edward
+whenCreated::2023-10-21 04:40:19
+title::SPA1 Exam 004: Create a form that allows the user to add and remove items from a dropdown
+descriptionMarkdown::[[
+- create a dropdown of items, e.g. cities
+- create a button called **Delete selected item** which removes the selected item from the dropdown list
+- create an input box and button called **Add new item** which add an item to the dropdown list
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, querySelectorAll, addEventListener, Array.from, remove() // comma-separated id-codes

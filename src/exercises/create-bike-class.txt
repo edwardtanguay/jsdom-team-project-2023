@@ -1,0 +1,16 @@
+author::edward
+whenCreated:: 2023-10-03 12:58:23
+title::Create bike class
+descriptionMarkdown::[[
+- create a class called `Bike`
+- create properties `color` and `name`
+- create methods called `start()`, `break()` and `stop()`
+	- for each method, simply output a sentence what it is doing e.g. **EuroBike is starting...**
+- create three objects from this class
+	- `hilandBike`
+	- `euroBike`
+	- `trekBike`
+- call each method on each of the objects
+]] 
+difficulty::2 // 1=easy, 5=difficult
+categories::classes // comma-separated id-codes

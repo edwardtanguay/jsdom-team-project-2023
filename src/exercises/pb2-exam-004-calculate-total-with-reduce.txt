@@ -1,0 +1,19 @@
+author::edward
+whenCreated:: 2023-09-26 12:58:23
+title::PB2 Exam 004: Calculate total with reduce
+descriptionMarkdown::[[
+- create this array of data from a weight-loss program
+```
+const weightTracking = [
+	{ person: 'Elisa', start: 85, end: 80},
+	{ person: 'Robert', start: 79, end: 72},
+	{ person: 'Andy', start: 69, end: 66},
+	{ person: 'Roxanne', start: 82, end: 75},
+	{ person: 'Andrew', start: 78, end: 74},
+];
+```
+- use **reduce()** to find the total number of kilos lost by all participants
+- display this information on the screen like this:
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::pb2exam, higherOrderFunctions // comma-separated id-codes

@@ -1,0 +1,10 @@
+author::edward
+whenCreated:: 2023-10-05 12:58:23
+title::List all employees 
+descriptionMarkdown::[[
+- import the `employees.json` file into a variable called `employees` 
+- display the `firstName` and `lastName` properties as for each of the employees in a UL/LI list on the page
+- the list does not need to be in any specific order
+]] 
+difficulty::1 // 1=easy, 5=difficult
+categories::import, map // comma-separated id-codes

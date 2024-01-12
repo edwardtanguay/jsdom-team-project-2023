@@ -1,0 +1,14 @@
+author::edward
+whenCreated:: 2023-10-07 12:58:23
+title::Create bubblesort
+descriptionMarkdown::[[
+- create an array of numbers called `nums` in non-sorted order
+- display them on the page, the numbers as red
+- sort nums with the `sort()` function and save the result to `sortedNums`
+- display `sortedNums` on the page in green
+- create a bubblesort algorithm function (search Google or ask ChatGPT), and sort `nums` with the bubble sort function to a variable called `bsSortedNums`
+- display `bsSortedNums` on the page in green as well
+- make sure that `sort()` and your bubblesort function sort the numbers correctly and in the same order
+]] 
+difficulty::1 // 1=easy, 5=difficult
+categories::higherOrderFunctions // comma-separated id-codes

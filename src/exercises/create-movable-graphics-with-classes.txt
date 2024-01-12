@@ -1,0 +1,13 @@
+author::edward
+whenCreated:: 2023-10-09 12:58:23
+title::Create movable graphics with classes
+descriptionMarkdown::[[
+- create a game with HTML5 canvas
+- create a player that you can move with **arrow buttons** or **arrow keys** 
+- use the **skills.json** file to load 10 random skills
+	- place them randomly on the game area
+- as the user moves the player around the board
+	- when the player touches a skill, the skill turns gray and is added to the list on the right with link and description
+]] 
+difficulty::4 // 1=easy, 5=difficult
+categories::pb2exam, higherOrderFunctions // comma-separated id-codes

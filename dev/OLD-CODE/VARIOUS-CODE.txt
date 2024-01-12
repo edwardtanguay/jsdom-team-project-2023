@@ -1,0 +1,9 @@
+${pageNames
+      .filter((pageName: string) => !["JS-DOM Team Project"].includes(pageName))
+      .map(
+        (pageName: string) =>
+          `<li class="bg-slate-500 py-1 px-3 rounded"><a href="/${getKebabPageIdCode(
+            pageName
+          )}"${getMenuClass(pageName)}>${pageName}</a></li>`
+      )
+      .join("")}

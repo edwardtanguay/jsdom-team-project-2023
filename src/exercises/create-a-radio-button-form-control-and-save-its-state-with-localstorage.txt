@@ -1,0 +1,14 @@
+author::edward
+whenCreated::2023-10-23 06:20:07
+title::Create a radio button form control and save its state with localStorage
+descriptionMarkdown::[[
+- create a radio button control that alls the user to selected **show answers** and **hide answers**
+- create a list of questions and answers
+- based on the setting of the control, either show or hide the answers
+- each time the control is changed
+	- show or hide the answers accordingly
+	- save this state to **localStorage**
+- **NOTE:** since we all use the same domain in this site, let's prefix our localStorage variables with our name in order to make it unique and prevent changing the state of someone else's exercise, e.g. `edward-show-answers` or `edward-appData`
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, radio buttons, addEventListener, localStorage // comma-separated id-codes

@@ -1,0 +1,28 @@
+author::edward
+whenCreated::2023-10-21 01:00:07
+title::SPA1 Exam 007: Program like it's 1999
+descriptionMarkdown::[[
+- pretend it's 1999 and you want to get a user's name on a website
+- use the **windows.prompt** command to ask for their name
+- if the user enters an empty name, prompt them again
+- if the user enters e.g. the name "Jim", display the following text on the page:
+```
+Hello Jim,
+
+While the window.prompt command is still available in web development,  
+its usage has become less common, especially in modern web applications. 
+
+The reason for its declining usage is that it doesn't provide a good user 
+experience in modern web applications. Web developers tend to use more 
+advanced and user-friendly methods of collecting user input, such as HTML 
+forms, input elements, and various JavaScript libraries and frameworks. 
+These alternatives offer more flexibility and control over the user interface, 
+and they can be styled and integrated more seamlessly into web applications.
+
+Additionally, window.prompt can be perceived as intrusive and is often associated 
+with older, less user-friendly web applications. Its use is discouraged for creating 
+modern, responsive, and user-friendly web applications.
+```
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, window.prompt, trim() // comma-separated id-codes

@@ -1,0 +1,10 @@
+author::edward
+whenCreated::2023-10-16 07:38:50
+title::JS-DOM: Enable user to double-click and triple click a div to get info
+descriptionMarkdown::[[
+- create a **DIV** that allows a user to **double-click** to toggle an info message
+- create a **DIV** that allows a user to **triple-click** to toggle an info message
+- note that there is no **triple-click** event in DOM so you have to [create it yourself](https://github.com/edwardtanguay/et997-jsdom/blob/dev/tripleclick.html)
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::dblclick, e.detail, user-select, querySelector, addEventListener // comma-separated id-codes

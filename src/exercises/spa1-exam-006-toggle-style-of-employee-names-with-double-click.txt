@@ -1,0 +1,12 @@
+author::edward
+whenCreated::2023-10-21 02:22:19
+title::SPA1 Exam 006: Toggle style of employee names with double click
+descriptionMarkdown::[[
+- import the file `src/data/customers.json` into an array called **employees**
+- display the full names of the employees in a UL/LI list
+- when the user **double clicks** a name, its style changes to **red** and **bold**
+- when the user **double clicks** on the name again, the style changes back to the original style
+- make sure that when the user double-clicks on a name that it is **not selected**
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, querySelectorAll, addEventListener, dblclick, user-select:none // comma-separated id-codes

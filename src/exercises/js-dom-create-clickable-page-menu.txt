@@ -1,0 +1,13 @@
+author::edward
+whenCreated:: 2023-10-10 12:58:23
+title::JS-DOM: Create clickable page menu
+descriptionMarkdown::[[
+- create an array of objects called `pages`, each page object has the following properties
+	- title
+	- html
+- create a UL/LI nav bar that displays the names of the pages
+- make each page name clickable
+- when clicked, show the corresponding HTML in the page area
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::textHTML, addEventListener // comma-separated id-codes

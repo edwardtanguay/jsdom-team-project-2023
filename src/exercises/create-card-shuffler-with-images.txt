@@ -1,0 +1,12 @@
+author::edward
+whenCreated:: 2023-10-08 12:58:23
+title::Create card shuffler with images
+descriptionMarkdown::[[
+- write a function called `shuffleDeck()` that randomized an array
+- use this function to randomize the `cards` array that you find on **appData**
+	- be sure to set **appData** as a parameter in your exercise component
+- display a poker hand of **five random cards** in a row
+- make sure each time you load the page random cards appear
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::pb2exam, higherOrderFunctions // comma-separated id-codes

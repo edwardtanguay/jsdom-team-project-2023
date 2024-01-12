@@ -1,0 +1,10 @@
+author::edward
+whenCreated::2023-10-21 03:07:45
+title::SPA1 Exam 005: Create a form that calculates the area of a circle
+descriptionMarkdown::[[
+- create a form that has a **radius** field and a button called **Calculate area**
+- when the button is clicked, calculate and display the area of a circle with that radius
+- the mathematical formula to calculate the area of a circle is: π * r<sup>2
+]] 
+difficulty::3 // 1=easy, 5=difficult
+categories::querySelector, addEventListener, e.preventDefault(), Math.PI // comma-separated id-codes
