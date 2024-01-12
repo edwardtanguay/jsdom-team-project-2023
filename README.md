@@ -1,14 +1,6 @@
-# Welcome to our JS-DOM Project!
+# JS-DOM Team Project
 
-## General Information
-
--   **Name**: JS-DOM Project!
--   **Version**: 0.0.0
--   **Private**: Yes
-
-## Description: Joint exercise project of class WD23-D04
-
-## For more details and task tracking, visit our [GitHub Board](https://github.com/orgs/WD23-D04/projects/7/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D&verticalGroupedBy%5BcolumnId%5D=Status).
+This project enables a class to work on JS-DOM tasks, view each other's tasks, search everyone's code, etc.
 
 ## Scripts
 
