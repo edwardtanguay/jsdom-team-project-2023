@@ -2,6 +2,8 @@
 
 This project enables a class to work on JS-DOM tasks, view each other's tasks, search everyone's code, etc.
 
+![grafik](https://github.com/edwardtanguay/jsdom-team-project-2023/assets/446574/e1e263eb-1883-40a0-88ca-033c47d654b9)
+
 ## Scripts
 
 To execute the following scripts, use the command `npm run [script-name]`:
